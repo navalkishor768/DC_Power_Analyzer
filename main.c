@@ -25,8 +25,8 @@
 //#define MV_PER_AMP		0.1			// for ACS712 20A module
 #define MV_PER_AMP			0.066		// for ACS712 30A module
 #define ADC_SAMPLE_CNT		50
-#define VOLTAGE_MAX_READ	12.0
-#define ADC_MAX_V_RAW		4.92
+#define VOLTAGE_MAX_READ	24.0
+#define ADC_MAX_V_RAW		4.32
 #define ADC_REAL_V_MUL		(VOLTAGE_MAX_READ/ADC_MAX_V_RAW)
 #define DCWATTHR			(BatVdcVal*CurrentVal)
 
